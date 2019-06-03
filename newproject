@@ -1,5 +1,5 @@
 #!/bin/bash
-python create_remote_repo.py $1
+python /usr/bin/create_remote_repo.py $1
 mkdir ~/Projects/$1
 cd ~/Projects/$1
 echo "# $1" >> README.md
