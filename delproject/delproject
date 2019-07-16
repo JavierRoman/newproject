@@ -1,6 +1,6 @@
 #!/bin/bash
-vars=$(cat commands.config)
-read NAME WDIR <<< $(echo ${vars} cat /usr/local/bin/commands.config | awk -F " " '{print $1" "$2}')
+vars=$(cat /usr/local/bin/commands.config)
+read NAME WDIR <<< $(echo ${vars} | awk -F " " '{print $1" "$2}')
 
 rm -rf /${WDIR}/$1
 python /usr/local/bin/delete_remote_repo.py $1
