@@ -32,5 +32,5 @@ Specify your github username and the full path to your projects working director
 After that you need an access token from github. Here's a link that shows how to get it:
 https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line
 
-Once you have it paste it.
+Once you have it paste it.<br/>
 ![Access token specification](example2.png)
