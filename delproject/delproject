@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rm -rf /Projects/$1
+python /usr/local/bin/delete_remote_repo.py $1
